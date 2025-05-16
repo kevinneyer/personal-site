@@ -1,3 +1,33 @@
-h1 {
-    color: blue;
+.body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    padding: 50px;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.about {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    min-height: fit-content;
+    margin-bottom: 50px;
+
+    img {
+        max-width: 300px;
+        border-radius: 100%;
+    }
+
+    p {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
 }
